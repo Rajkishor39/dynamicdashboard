@@ -84,14 +84,14 @@ const BajajAreaChartCard = () => {
             </Grid>
             <Grid item>
               <Typography variant="h4" sx={{ color: 'grey.800' }}>
-                ${data ? data.BajajAreaChartCard['Bajaj Finery'] : 0}
+              ${data ? data.PopularCard?.['Bajaj Finery']?.total : 0}
               </Typography>
             </Grid>
           </Grid>
         </Grid>
         <Grid item xs={12}>
           <Typography variant="subtitle2" sx={{ color: 'grey.800' }}>
-          {data ? data.BajajAreaChartCard.Profit : 0 }% Profit
+          {data ? data.PopularCard?.['Bajaj Finery']?.Profit : 0}% Profit
           </Typography>
         </Grid>
       </Grid>

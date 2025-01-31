@@ -43,7 +43,7 @@
         "year":90
     },
     "chartData": {
-        "bajajAreaChart": [20, 15, 10, 50, 30, 40, 80]
+        "bajajAreaChart": [46, 15, 10, 50, 30, 40, 80]
     },
     "totalGrowthBar": {
         "Investment": [110, 125, 35, 35, 35, 80, 35, 20, 35, 45, 15, 75],
@@ -56,13 +56,8 @@
     },
     "totalOrderYearly": {
         "data": [35, 44, 9, 54, 45, 66, 41, 100]
-    } ,
-    {
-    "total":{
-        "month":34,
-        "year":56
-    }
-    
+    } 
+       
 }
 
     
